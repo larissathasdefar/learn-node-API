@@ -2,7 +2,7 @@
 **API Documentation** -  project of social media.
 ===================
 
-###About
+### About
 The objective of this project is the develop an API in NodeJs to learn how is create an node API, and use this like a default backend on projects to learn about Ruby, ReactJs, React Native and other languages.
 
 ### Tables
@@ -51,7 +51,7 @@ _Legenda:_
 * Add or delete a friend
 * Edit account
 
-###Routes
+### Routes
 
 Login
 : **[POST] "/login"**: Verify if the email and password are correct
