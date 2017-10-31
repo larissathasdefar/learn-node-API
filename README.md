@@ -49,33 +49,33 @@ _Legenda:_
 * Create, edit or delete a post with a text and/or a photo
 * Comment, edit or delete a comment in a post
 * Add or delete a friend
-* Edit account
+* Create, edit or delete your account
 
 ### Routes
 
 Login
-: **[POST] "/login"**: Verify if the email and password are correct
-: **[POST] "/signup"**: Create an account
+- **[POST] "/login"**: Verify if the email and password are correct
+- **[POST] "/signup"**: Create an account
 
 Account
-: **[GET] "/account"**: Returns the data about the logged user
-: **[PATCH] "/account"**: Edit the logged user
-: **[DELETE] "/account"**: Delete the logged user
+- **[GET] "/account"**: Returns the data about the logged user
+- **[PATCH] "/account"**: Edit the logged user
+- **[DELETE] "/account"**: Delete the logged user
 
 Post
-: **[POST] "/post"**: Create a post
-: **[GET] "/post/:id"**: Returns the data about the post
-: **[PATCH] "/post/:id"**: Edit the post
-: **[DELETE] "/post/:id"**: Delete the post
+- **[POST] "/post"**: Create a post
+- **[GET] "/post/:id"**: Returns the data about the post
+- **[PATCH] "/post/:id"**: Edit the post
+- **[DELETE] "/post/:id"**: Delete the post
 
 Comment
-: **[POST] "/comment/:post"**: Create a comment
-: **[GET] "/comment/:id"**: Returns the comment
-: **[GET] "/comments/:post"**: Returns all the comments on the post
-: **[PATCH] "/comment/:id"**: Edit the comment
-: **[DELETE] "/comment/:id"**: Delete the comment
+- **[POST] "/comment/:post"**: Create a comment
+- **[GET] "/comment/:id"**: Returns the comment
+- **[GET] "/comments/:post"**: Returns all the comments on the post
+- **[PATCH] "/comment/:id"**: Edit the comment
+- **[DELETE] "/comment/:id"**: Delete the comment
 
 Friendship
-: **[POST] "/friendship/"**: Create a request of friendship
-: **[GET] "/friendship/:id"**: Returns the data about the friendship
-: **[DELETE] "/friendship/:id"**: Delete the friendship
+- **[POST] "/friendship/"**: Create a request of friendship
+- **[GET] "/friendship/:id"**: Returns the data about the friendship
+- **[DELETE] "/friendship/:id"**: Delete the friendship
